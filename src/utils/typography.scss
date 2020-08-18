@@ -1,10 +1,12 @@
 @import "./variables/typography";
+@import "./variables/colors";
 body {
   font-family: $font-main;
 }
 
 .heading {
   font-weight: bold;
+  color: $color-secondary-5;
   &-huge {
     font-size: 10rem;
     line-height: 10rem;
@@ -25,6 +27,8 @@ body {
 
 .body-text {
   font-weight: 600;
+  color: $color-secondary-5;
+
   &-primary {
     font-size: 1.8rem;
     line-height: 2.8rem;
