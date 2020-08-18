@@ -1,0 +1,8 @@
+@import "../utils/variables/colors";
+.grid {
+  display: grid;
+}
+
+.bg-main {
+  background-color: $color-primary-1;
+}
