@@ -1,0 +1,5 @@
+@import "../../utils/variables/colors";
+
+.header {
+  grid-template-columns: repeat(4, 1fr);
+}
