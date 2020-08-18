@@ -1,0 +1,36 @@
+@import "./variables/colors";
+
+.btn {
+  padding: 0.25rem 0.33rem;
+  height: 4.8rem;
+  width: 15.3rem;
+  border: 2px solid white;
+  border-radius: 2.4rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  &-primary-light {
+    background: none;
+    color: $color-primary-3;
+
+    &:hover {
+      color: $color-secondary-5;
+      background: $color-primary-3;
+    }
+  }
+  &-primary-dark {
+    background: $color-primary-3;
+    color: $color-secondary-5;
+    &:hover {
+      color: $color-primary-3;
+      background: none;
+    }
+  }
+
+  &-secondary {
+    background-color: $color-primary-3;
+    color: $color-secondary-5;
+    &:hover {
+      background-color: $color-secondary-1;
+    }
+  }
+}
