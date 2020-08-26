@@ -5,7 +5,7 @@ import Content from "./content_routes/Content";
 
 export default function App() {
   return (
-    <div className="app bg-main">
+    <div className="app">
       <Header />
       <Content />
     </div>

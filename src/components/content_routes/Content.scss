@@ -1,5 +1,9 @@
 .content-wrapper {
-  margin-top: 8rem;
+  padding-top: 8rem;
+  & > * > * {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+  }
 }
 
 .content-heading {

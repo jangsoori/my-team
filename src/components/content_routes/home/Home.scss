@@ -1,0 +1,23 @@
+@import "../../../utils/variables/colors";
+.home-svg-main {
+  //   padding-top: 10rem;
+  position: absolute;
+  padding: 0 0.9rem;
+  bottom: 0;
+  left: 0;
+}
+.home-main {
+  position: relative;
+  > p {
+    padding-bottom: 19.4rem;
+  }
+}
+.home-section-2 {
+  background-color: $color-secondary-4;
+  padding-top: 6rem;
+  > h2 {
+    width: 75%;
+    text-align: left;
+    padding-bottom: 5.6rem;
+  }
+}

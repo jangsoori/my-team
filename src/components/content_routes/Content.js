@@ -4,7 +4,7 @@ import "./Content.scss";
 import Home from "./home/Home";
 export default function Content() {
   return (
-    <section className="content-wrapper">
+    <section className="content-wrapper bg-main">
       <Switch>
         <Route exact path="/" component={Home} />
       </Switch>

@@ -6,7 +6,7 @@ import Navbar from "./Navbar";
 
 export default function Header() {
   return (
-    <header className="header grid">
+    <header className="header grid bg-main">
       <Logo />
       <Navbar />
     </header>
