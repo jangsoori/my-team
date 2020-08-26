@@ -4,7 +4,7 @@ import "../../../utils/typography.scss";
 export default function Home() {
   return (
     <section className="content home">
-      <h2 className="content-heading heading-medium">
+      <h2 className="content-heading heading-mobile">
         Find the best <span className="text-empaphise">talent</span>
       </h2>
       <p className="content-text body-text-secondary">
