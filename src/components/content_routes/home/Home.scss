@@ -15,9 +15,30 @@
 .home-section-2 {
   background-color: $color-secondary-4;
   padding-top: 6rem;
+  position: relative;
+
   > h2 {
     width: 75%;
     text-align: left;
     padding-bottom: 5.6rem;
+    padding-top: 3.2rem;
+    position: relative;
+  }
+
+  & .red-line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5rem;
+    height: 0.4rem;
+    margin-left: 2.4rem;
+    background-color: $color-primary-2;
+  }
+
+  .home-svg-2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0;
   }
 }
