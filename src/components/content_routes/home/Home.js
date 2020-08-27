@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.scss";
-import "../../../utils/typography.scss";
 import Features from "./Features";
 import Testimonials from "./Testimonials";
 export default function Home() {
