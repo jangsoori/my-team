@@ -6,6 +6,7 @@
   width: 15.3rem;
   border: 2px solid white;
   border-radius: 2.4rem;
+  font-size: 1.8rem;
   cursor: pointer;
   transition: all 0.2s;
   &-primary-light {
@@ -18,11 +19,13 @@
     }
   }
   &-primary-dark {
-    background: $color-primary-3;
+    border: 2px solid $color-secondary-4;
+
+    background: none;
     color: $color-secondary-5;
     &:hover {
       color: $color-primary-3;
-      background: none;
+      background: $color-secondary-4;
     }
   }
 
