@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.scss";
 import "../../../utils/typography.scss";
+import Features from "./Features";
 export default function Home() {
   return (
     <React.Fragment>
@@ -91,6 +92,7 @@ export default function Home() {
           <span className="red-line"></span>
           Build & manage distributed teams like no one else.
         </h2>
+        <Features />
       </section>
     </React.Fragment>
   );
