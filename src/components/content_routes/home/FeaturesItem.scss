@@ -1,0 +1,14 @@
+@import "../../../utils/variables/colors";
+.features-item {
+  text-align: center;
+  grid-template-rows: repeat(3, max-content);
+  gap: 1.6rem;
+
+  &-title {
+    color: $color-primary-2;
+  }
+  &-text {
+    color: $color-primary-3;
+    opacity: 0.8;
+  }
+}
