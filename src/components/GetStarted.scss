@@ -1,0 +1,12 @@
+@import "../utils/variables/colors";
+.get-started {
+  background-color: $color-primary-2;
+  padding: 8.3rem 2.4rem;
+  text-align: center;
+  grid-template-rows: repeat(2, auto);
+  gap: 2.4rem;
+  justify-items: center;
+  &-title {
+    color: $color-secondary-4;
+  }
+}
