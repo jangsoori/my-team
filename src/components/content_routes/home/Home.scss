@@ -8,6 +8,9 @@
 }
 .home-main {
   position: relative;
+  > h2 {
+    padding-bottom: 1.8rem;
+  }
   > p {
     padding-bottom: 19.4rem;
   }
@@ -40,5 +43,22 @@
     right: 0;
     top: 0;
     padding: 0;
+  }
+}
+.home-section-3 {
+  padding-top: 14rem;
+  position: relative;
+
+  .home-svg-3 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 0;
+  }
+  h2 > span {
+    color: $color-secondary-1;
+  }
+  h2 {
+    padding-bottom: 4.8rem;
   }
 }
