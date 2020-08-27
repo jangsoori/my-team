@@ -48,11 +48,18 @@
 .home-section-3 {
   padding-top: 14rem;
   position: relative;
+  padding-bottom: 16.4rem;
 
   .home-svg-3 {
     position: absolute;
     left: 0;
     top: 0;
+    padding: 0;
+  }
+  .home-svg-4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
     padding: 0;
   }
   h2 > span {

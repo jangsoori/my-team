@@ -1,0 +1,37 @@
+@import "../../../utils/variables/colors";
+.testimonial-item {
+  grid-template-rows: repeat(3, auto);
+  gap: 1.6rem;
+  text-align: center;
+  color: $color-primary-3;
+  padding-top: 3.6rem;
+  position: relative;
+  align-items: center;
+  > :nth-child(2) {
+    z-index: 2;
+  }
+  .testimonial-person {
+    grid-template-rows: repeat(2, auto);
+    gap: 0.2rem;
+    :first-child {
+      color: $color-secondary-1;
+    }
+    :nth-child(2) {
+      font-size: 1.3rem;
+      line-height: 1.8rem;
+      font-style: italic;
+    }
+  }
+  .tesimonial-cite-icon {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    align-self: flex-start;
+  }
+  .testimonial-item-picture {
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 2px solid #c4fffe;
+  }
+}
