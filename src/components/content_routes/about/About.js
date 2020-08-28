@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.scss";
+import Team from "./Team";
 export default function About() {
   return (
     <React.Fragment>
@@ -40,6 +41,9 @@ export default function About() {
             fill="#79C8C7"
           />
         </svg>
+      </section>
+      <section className="about-section-2">
+        <Team />
       </section>
     </React.Fragment>
   );
