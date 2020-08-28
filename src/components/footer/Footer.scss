@@ -1,0 +1,31 @@
+@import "../../utils/variables/colors";
+.footer {
+  background-color: $color-secondary-5;
+  padding: 6.5rem 2.4rem;
+  justify-content: center;
+  text-align: center;
+  gap: 2.4rem;
+
+  svg {
+    justify-self: center;
+  }
+  &-nav {
+    grid-template-columns: max-content max-content;
+    justify-content: center;
+    gap: 2.4rem;
+    &-link {
+      color: white;
+      text-decoration: none;
+    }
+  }
+  &-socials {
+    grid-template-columns: repeat(3, max-content);
+    gap: 1.6rem;
+    justify-content: center;
+  }
+  &-address,
+  &-copy {
+    color: white;
+    opacity: 0.6;
+  }
+}
