@@ -4,6 +4,14 @@
     padding-left: 2.4rem;
     padding-right: 2.4rem;
   }
+  //Content Title
+  & > * > h2 {
+    padding-bottom: 1.8rem;
+  }
+  //Content text
+  & > * > p {
+    padding-bottom: 19.4rem;
+  }
 }
 
 .content-heading {
