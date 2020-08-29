@@ -6,47 +6,47 @@ const team = [
   {
     name: "Nikita Marks",
     occupation: "Founder & CEO",
-    picture: "",
+    picture: "./avatars/Oval.png",
     quote:
       "“Empowered teams create truly amazing products. Set the north star and let them follow it.”",
     socials: { twitter: "", facebook: "" },
   },
   {
-    name: "Nikita Mark",
-    occupation: "Founder & CEO",
-    picture: "",
+    name: "Cristian Duncan",
+    occupation: "Co-founder & COO",
+    picture: "./avatars/Oval-2.png",
     quote:
       "“Empowered teams create truly amazing products. Set the north star and let them follow it.”",
     socials: { twitter: "", facebook: "" },
   },
   {
-    name: "Nikita Marks",
-    occupation: "Founder & CEO",
-    picture: "",
+    name: "Cruz Hamer",
+    occupation: "Co-founder & CTO",
+    picture: "./avatars/Oval-3.png",
     quote:
       "“Empowered teams create truly amazing products. Set the north star and let them follow it.”",
     socials: { twitter: "", facebook: "" },
   },
   {
-    name: "Nikita Marks",
-    occupation: "Founder & CEO",
-    picture: "",
+    name: "Drake Heaton",
+    occupation: "Business Development Lead",
+    picture: "./avatars/Oval-2.png",
     quote:
       "“Empowered teams create truly amazing products. Set the north star and let them follow it.”",
     socials: { twitter: "", facebook: "" },
   },
   {
-    name: "Nikita Marks",
-    occupation: "Founder & CEO",
-    picture: "",
+    name: "Griffin Wise",
+    occupation: "Lead Marketing",
+    picture: "./avatars/Oval-4.png",
     quote:
       "“Empowered teams create truly amazing products. Set the north star and let them follow it.”",
     socials: { twitter: "", facebook: "" },
   },
   {
-    name: "Nikita Marks",
-    occupation: "Founder & CEO",
-    picture: "",
+    name: "Aden Allan",
+    occupation: "Lead Development",
+    picture: "./avatars/Oval-5.png",
     quote:
       "“Empowered teams create truly amazing products. Set the north star and let them follow it.”",
     socials: { twitter: "", facebook: "" },
