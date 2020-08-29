@@ -65,7 +65,7 @@ export default function TeamItem({ item }) {
       >
         <p className="body-text-primary team-item-name">{item.name}</p>
         <p className="body-text-secondary team-item-quote">{item.quote}</p>
-        <div className="team-item-details-socials">
+        <div className="team-item-details-socials grid">
           <AboutTwitter />
           <AboutLinkedIn />
         </div>

@@ -11,7 +11,7 @@
   padding-right: 2.4rem;
   background-color: $color-secondary-4;
   position: relative;
-
+  align-items: center;
   &-picture {
     border-radius: 50%;
     border: 2px solid #c4fffe;
@@ -58,4 +58,9 @@
 
 .team-item-quote {
   color: $color-primary-3;
+}
+
+.team-item-details-socials {
+  grid-template-columns: repeat(2, max-content);
+  gap: 1.6rem;
 }
