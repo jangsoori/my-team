@@ -12,7 +12,7 @@ const team = [
     socials: { twitter: "", facebook: "" },
   },
   {
-    name: "Nikita Marks",
+    name: "Nikita Mark",
     occupation: "Founder & CEO",
     picture: "",
     quote:
