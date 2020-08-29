@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.scss";
 import Team from "./Team";
+import Clients from "./Clients";
 export default function About() {
   return (
     <React.Fragment>
@@ -44,6 +45,9 @@ export default function About() {
       </section>
       <section className="about-section-2">
         <Team />
+      </section>
+      <section className="about-section-3">
+        <Clients />
       </section>
     </React.Fragment>
   );
