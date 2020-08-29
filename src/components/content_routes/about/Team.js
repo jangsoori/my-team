@@ -11,6 +11,46 @@ const team = [
       "“Empowered teams create truly amazing products. Set the north star and let them follow it.”",
     socials: { twitter: "", facebook: "" },
   },
+  {
+    name: "Nikita Marks",
+    occupation: "Founder & CEO",
+    picture: "",
+    quote:
+      "“Empowered teams create truly amazing products. Set the north star and let them follow it.”",
+    socials: { twitter: "", facebook: "" },
+  },
+  {
+    name: "Nikita Marks",
+    occupation: "Founder & CEO",
+    picture: "",
+    quote:
+      "“Empowered teams create truly amazing products. Set the north star and let them follow it.”",
+    socials: { twitter: "", facebook: "" },
+  },
+  {
+    name: "Nikita Marks",
+    occupation: "Founder & CEO",
+    picture: "",
+    quote:
+      "“Empowered teams create truly amazing products. Set the north star and let them follow it.”",
+    socials: { twitter: "", facebook: "" },
+  },
+  {
+    name: "Nikita Marks",
+    occupation: "Founder & CEO",
+    picture: "",
+    quote:
+      "“Empowered teams create truly amazing products. Set the north star and let them follow it.”",
+    socials: { twitter: "", facebook: "" },
+  },
+  {
+    name: "Nikita Marks",
+    occupation: "Founder & CEO",
+    picture: "",
+    quote:
+      "“Empowered teams create truly amazing products. Set the north star and let them follow it.”",
+    socials: { twitter: "", facebook: "" },
+  },
 ];
 
 const renderTeam = (team) => {
@@ -24,7 +64,7 @@ export default function Team() {
       <h2 className="content-heading heading-mobile-secondary about-team-title">
         Meet the directors
       </h2>
-      <ul className="team-list">{renderTeam(team)}</ul>
+      <section className="team-list grid">{renderTeam(team)}</section>
     </React.Fragment>
   );
 }

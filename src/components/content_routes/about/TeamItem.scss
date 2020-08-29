@@ -1,0 +1,61 @@
+@import "../../../utils/variables/colors";
+.team-item {
+  grid-template-rows: repeat(2, max-content);
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+  gap: 1.6rem;
+  padding-top: 3.2rem;
+  padding-bottom: 5.6rem;
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
+  background-color: $color-secondary-4;
+  position: relative;
+
+  &-picture {
+    border-radius: 50%;
+    border: 2px solid #c4fffe;
+    width: 96px;
+  }
+
+  &-overview {
+    grid-template-rows: repeat(2, max-content);
+
+    .team-item-occupation {
+      color: $color-primary-3;
+      font-style: italic;
+      font-weight: 500;
+    }
+  }
+  &-extend-icon {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    z-index: 10;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .team-item-details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    &-visible {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
+
+.team-item-name {
+  color: $color-secondary-1;
+}
+
+.team-item-quote {
+  color: $color-primary-3;
+}

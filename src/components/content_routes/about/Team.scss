@@ -1,3 +1,10 @@
 .about-team-title {
   padding-bottom: 4.8rem;
 }
+
+.team-list {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 350px));
+  justify-content: center;
+  row-gap: 7.6rem;
+  column-gap: 3rem;
+}
