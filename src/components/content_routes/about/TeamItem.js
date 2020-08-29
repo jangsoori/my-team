@@ -50,11 +50,7 @@ export default function TeamItem({ item }) {
   };
   return (
     <figure className="team-item grid">
-      <img
-        src="./avatars/testimonial2.jpeg"
-        alt=""
-        className="team-item-picture"
-      />
+      <img src={item.picture} alt="" className="team-item-picture" />
       <div className="team-item-overview grid">
         <p className="body-text-primary team-item-name">{item.name}</p>
         <p className="body-text-secondary team-item-occupation">
