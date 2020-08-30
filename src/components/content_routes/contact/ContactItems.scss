@@ -1,0 +1,12 @@
+.contact-items-list {
+  grid-template-rows: repeat(3, max-content);
+  gap: 2.4rem;
+  justify-content: center;
+}
+.contact-items-item {
+  grid-template-columns: max-content auto;
+  align-items: center;
+  gap: 2.4rem;
+  color: white;
+  font-weight: bold;
+}
