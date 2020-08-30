@@ -1,0 +1,15 @@
+.contact-main {
+  padding-bottom: 8.8rem;
+}
+.contact-main-text {
+  grid-template-rows: repeat(2, max-content);
+  gap: 1.6rem;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  padding-bottom: 4rem;
+}
+
+.contact-heading-small {
+  font-size: 3.2rem;
+}
