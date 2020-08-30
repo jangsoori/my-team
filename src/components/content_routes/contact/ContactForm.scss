@@ -1,0 +1,63 @@
+@import "../../../utils/variables/colors";
+.contact-form-wrapper {
+  grid-template-rows: repeat(2, max-content);
+  gap: 2.4rem;
+  width: 100%;
+}
+.contact-form-inputs {
+  grid-template-rows: repeat(5, max-content);
+  gap: 3.8rem;
+  width: 100%;
+}
+
+.contact-input-wrapper {
+  position: relative;
+  * {
+    width: 100%;
+  }
+  input,
+  textarea {
+    padding-left: 1.4rem;
+    padding-bottom: 1.7rem;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    border-bottom: 1px solid white;
+    color: white;
+
+    &::placeholder {
+      color: $color-secondary-1;
+      opacity: 0.6;
+    }
+  }
+  .input-error {
+    position: absolute;
+    color: $color-primary-2;
+    padding-left: 1.4rem;
+    left: 0;
+    bottom: -50%;
+    font-style: italic;
+    font-size: 10px;
+    line-height: 13px;
+    font-weight: bold;
+  }
+  .contact-input-field.error {
+    border-color: $color-primary-2;
+
+    &::placeholder {
+      color: $color-primary-2;
+    }
+  }
+}
+
+.contact-form-submit {
+  padding: 1rem 3.2rem;
+  color: $color-secondary-3;
+  font-size: 18px;
+  line-height: 28px;
+  justify-self: left;
+  border-radius: 2.4rem;
+  border: none;
+}

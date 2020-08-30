@@ -1,6 +1,7 @@
 import React from "react";
 import "./Contact.scss";
 import ContactItems from "./ContactItems";
+import ContactForm from "./ContactForm";
 export default function Contact() {
   return (
     <React.Fragment>
@@ -12,6 +13,7 @@ export default function Contact() {
           <h4 className="contact-heading-small text-emphasize">Ask us about</h4>
         </div>
         <ContactItems />
+        <ContactForm />
       </section>
     </React.Fragment>
   );
