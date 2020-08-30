@@ -1,5 +1,6 @@
 .contact-main {
   padding-bottom: 8.8rem;
+  position: relative;
 }
 .contact-main-text {
   grid-template-rows: repeat(2, max-content);
@@ -12,4 +13,11 @@
 
 .contact-heading-small {
   font-size: 3.2rem;
+}
+
+.contact-svg-1 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0;
 }
