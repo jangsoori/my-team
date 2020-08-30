@@ -7,7 +7,7 @@ export default function Home() {
     <React.Fragment>
       <section className="content home-main bg-main">
         <h2 className="content-heading heading-mobile">
-          Find the best <span className="text-empaphise">talent</span>
+          Find the best <span className="text-emphasize">talent</span>
         </h2>
         <p className="content-text body-text-secondary">
           Finding the right people and building high performing teams can be
