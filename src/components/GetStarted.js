@@ -1,5 +1,6 @@
 import React from "react";
 import "./GetStarted.scss";
+import { NavLink } from "react-router-dom";
 export default function GetStarted() {
   return (
     <section className="get-started grid">
@@ -40,7 +41,9 @@ export default function GetStarted() {
       </svg>
 
       <h2 className="heading get-started-title">Ready to get started?</h2>
-      <button className="btn btn-primary-dark">contact us</button>
+      <NavLink to="/contact" className="btn btn-primary-dark">
+        contact us
+      </NavLink>
     </section>
   );
 }
