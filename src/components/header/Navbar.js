@@ -41,9 +41,12 @@ export default function Navbar() {
             <li className="mobile-menu-item body-text-primary">
               <NavLink to="/about">about</NavLink>
             </li>
-            <li className="mobile-menu-item body-text-primary">
-              <NavLink to="/contact">contact us</NavLink>
-            </li>
+            <NavLink
+              className="mobile-menu-item body-text-primary btn btn-primary-light"
+              to="/contact"
+            >
+              contact us
+            </NavLink>
           </ul>
         </nav>
       </section>
