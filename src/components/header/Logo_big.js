@@ -1,5 +1,4 @@
 import React from "react";
-import "./Logo_big.scss";
 import { NavLink } from "react-router-dom";
 export default function Logo_big() {
   return (
