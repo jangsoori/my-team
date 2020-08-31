@@ -11,9 +11,12 @@ export default function NavDesktop() {
         <li className="desktop-menu-item body-text-primary">
           <NavLink to="/about">about</NavLink>
         </li>
-        <li className="desktop-menu-item body-text-primary">
-          <NavLink to="/contact">contact us</NavLink>
-        </li>
+        <NavLink
+          className="desktop-menu-item body-text-primary btn btn-primary-light"
+          to="/contact"
+        >
+          contact us
+        </NavLink>
       </ul>
     </nav>
   );
