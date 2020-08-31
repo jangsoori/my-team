@@ -16,7 +16,7 @@ export default function Clients() {
   };
   return (
     <React.Fragment>
-      <h2 className="content-heading heading-mobile-secondary about-clients-title">
+      <h2 className="content-heading heading-main-secondary about-clients-title">
         Some of our clients
       </h2>
       <section className="about-clients grid">{renderClients(clients)}</section>

@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <React.Fragment>
       <section className="content home-main bg-main">
-        <h2 className="content-heading heading-mobile">
+        <h2 className="content-heading heading-main">
           Find the best <span className="text-emphasize">talent</span>
         </h2>
         <p className="content-text body-text-secondary">
@@ -15,7 +15,7 @@ export default function Home() {
           talent. We’re about to change that.
         </p>
         <svg
-          className="home-svg-main"
+          className="home-svg-1"
           width="358"
           height="100"
           viewBox="0 0 358 100"
@@ -88,7 +88,7 @@ export default function Home() {
           />
         </svg>
 
-        <h2 className="content-heading heading-mobile-secondary">
+        <h2 className="content-heading heading-main-secondary">
           <span className="red-line"></span>
           Build & manage distributed teams like no one else.
         </h2>
@@ -116,7 +116,7 @@ export default function Home() {
             fill="#79C8C7"
           />
         </svg>
-        <h2 className="content-heading heading-mobile-secondary">
+        <h2 className="content-heading heading-main-secondary">
           Delivering real results for top companies. Some of our{" "}
           <span>success stories.</span>
         </h2>

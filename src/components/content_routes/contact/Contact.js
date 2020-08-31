@@ -7,7 +7,7 @@ export default function Contact() {
     <React.Fragment>
       <section className="content contact-main bg-main">
         <div className="contact-main-text grid">
-          <h2 className="content-heading contact-heading-big heading-mobile">
+          <h2 className="content-heading contact-heading-big heading-main">
             Contact
           </h2>
           <h4 className="contact-heading-small text-emphasize">Ask us about</h4>

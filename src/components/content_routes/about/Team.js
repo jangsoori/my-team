@@ -83,7 +83,7 @@ export default function Team() {
         />
       </svg>
 
-      <h2 className="content-heading heading-mobile-secondary about-team-title">
+      <h2 className="content-heading heading-main-secondary about-team-title">
         Meet the directors
       </h2>
       <section className="team-list grid">{renderTeam(team)}</section>
