@@ -12,6 +12,7 @@
   background-color: $color-secondary-4;
   position: relative;
   align-items: center;
+
   &-picture {
     border-radius: 50%;
     border: 2px solid #c4fffe;
@@ -33,8 +34,21 @@
     left: 50%;
     transform: translate(-50%, 50%);
     z-index: 10;
+    circle {
+      transition: all 0.2s;
+    }
     &:hover {
       cursor: pointer;
+      circle {
+        fill: #79c8c7;
+      }
+    }
+    &.close {
+      &:hover {
+        circle {
+          fill: #f67e7e;
+        }
+      }
     }
   }
   .team-item-details {
@@ -45,9 +59,12 @@
     width: 100%;
     opacity: 0;
     visibility: hidden;
+    transform: translateY(100%);
+    transition: 0.5s;
     &-visible {
       opacity: 1;
       visibility: visible;
+      transform: translateY(0%);
     }
   }
 }
@@ -63,4 +80,13 @@
 .team-item-details-socials {
   grid-template-columns: repeat(2, max-content);
   gap: 1.6rem;
+  svg path {
+    transition: all 0.2s;
+  }
+  svg:hover {
+    cursor: pointer;
+    path {
+      fill: $color-primary-2;
+    }
+  }
 }
