@@ -32,6 +32,7 @@
     background-color: $color-primary-3;
     color: $color-secondary-5;
     &:hover {
+      border-color: $color-secondary-1;
       background-color: $color-secondary-1;
     }
   }
