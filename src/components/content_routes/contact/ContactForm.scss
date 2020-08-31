@@ -43,6 +43,9 @@
     line-height: 13px;
     font-weight: bold;
   }
+  &:last-child .input-error {
+    bottom: -25%;
+  }
   .contact-input-field.error {
     border-color: $color-primary-2;
 
@@ -53,11 +56,5 @@
 }
 
 .contact-form-submit {
-  padding: 1rem 3.2rem;
-  color: $color-secondary-3;
-  font-size: 18px;
-  line-height: 28px;
   justify-self: left;
-  border-radius: 2.4rem;
-  border: none;
 }
