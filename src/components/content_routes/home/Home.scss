@@ -8,6 +8,15 @@
 }
 .home-main {
   position: relative;
+  > p {
+    position: relative;
+  }
+  .blue-line {
+    display: none;
+  }
+  .home-svg-5 {
+    display: none;
+  }
 }
 .home-section-2 {
   background-color: $color-secondary-4;
