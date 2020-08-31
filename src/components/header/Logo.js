@@ -1,8 +1,9 @@
 import React from "react";
-
+import { NavLink } from "react-router-dom";
+import "./Logo.scss";
 export default function Logo() {
   return (
-    <div className="header-logo-wrapper">
+    <NavLink to="/">
       <svg
         className="header-logo-image"
         width="128"
@@ -18,6 +19,6 @@ export default function Logo() {
           fill="white"
         />
       </svg>
-    </div>
+    </NavLink>
   );
 }
