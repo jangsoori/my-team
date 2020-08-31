@@ -3,7 +3,7 @@ import React from "react";
 export default function CiteIcon() {
   return (
     <svg
-      className="tesimonial-cite-icon"
+      className="testimonial-cite-icon"
       width="67"
       height="56"
       viewBox="0 0 67 56"
