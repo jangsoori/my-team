@@ -1,0 +1,219 @@
+@import "../utils/typography.scss";
+
+/* hi-res laptops and desktops */
+@media (min-width: 1281px) {
+  .header {
+    padding-left: 16.5rem;
+    padding-right: 16.5rem;
+    padding-top: 7.3rem;
+    gap: 8rem;
+    .desktop-menu-items {
+      gap: 4rem;
+    }
+  }
+
+  .content-wrapper {
+    & > * {
+      padding-left: 16.5rem;
+      // padding-top: 13rem;
+      padding-bottom: 14rem;
+      padding-right: 16.5rem;
+    }
+  }
+
+  .home-main {
+    display: grid;
+    grid-template-columns: 10fr 7fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    padding-bottom: 25rem;
+    padding-right: 16.5rem;
+    column-gap: 12.2rem;
+    row-gap: 0;
+    .heading-home {
+      @include heading-huge;
+      text-align: left;
+      padding: 0;
+      grid-row: 1/3;
+      align-self: end;
+      span {
+        @include heading-huge;
+      }
+    }
+    .home-svg-5 {
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-75%);
+    }
+    .body-text-home {
+      grid-row: 2/3;
+      padding: 0;
+      width: 100%;
+      text-align: left;
+      align-self: end;
+      font-size: 1.8rem;
+      line-height: 2.8rem;
+    }
+    .blue-line {
+      position: absolute;
+      top: -100%;
+      left: 0;
+      width: 5rem;
+      height: 0.4rem;
+      background-color: $color-secondary-1;
+      display: block;
+      grid-column: 2/3;
+      grid-row: 2/3;
+    }
+    .home-svg-1 {
+      left: 75%;
+
+      bottom: 0;
+    }
+  }
+  .home-section-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    > h2 {
+      @include heading-medium;
+      grid-column: 1/2;
+      padding-top: 5.4rem;
+    }
+    .red-line {
+      margin-left: 0rem;
+    }
+    .features {
+      padding-bottom: 0;
+      grid-column: 2/3;
+    }
+    .home-svg-2 {
+      top: auto;
+      bottom: 0;
+    }
+  }
+
+  .home-section-3 {
+    .heading-main-secondary {
+      @include heading-medium;
+      padding-bottom: 9.2rem;
+    }
+
+    .testimonials {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 1fr;
+
+      .testimonial-item {
+        max-width: 350px;
+        justify-self: center;
+        .testimonial-cite-icon {
+          top: -15%;
+        }
+      }
+    }
+  }
+  //about
+  .about-main {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    > h2 {
+      grid-row: 1/2;
+      justify-self: start;
+    }
+    > p {
+      grid-row: 1/3;
+      align-self: end;
+      width: 95%;
+      text-align: left;
+      font-size: 1.8rem;
+      line-height: 2.8rem;
+    }
+  }
+  .about-team-title {
+    padding-bottom: 6.4rem;
+    @include heading-medium;
+  }
+  .about-clients-title {
+    @include heading-medium;
+  }
+  .team-item {
+    padding-top: 3.2rem;
+    padding-bottom: 5.6rem;
+  }
+  ///////////////////////////////////////////
+  //CONTACT PAGE//
+  .contact-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: max-content max-content;
+    column-gap: 3rem;
+    row-gap: 3.2rem;
+    &-text {
+      grid-template-rows: max-content auto;
+      grid-row: 1/2;
+      grid-column: 1/2;
+      justify-self: start;
+      justify-items: start;
+      text-align: left;
+      padding-bottom: 0;
+      align-content: stretch;
+      h4 {
+        align-self: end;
+      }
+    }
+    .contact-items-list {
+      grid-row: 2/3;
+      grid-column: 1/2;
+      justify-self: start;
+      padding: 0;
+      justify-content: start;
+    }
+    .contact-form-wrapper {
+      grid-row: 1/3;
+      grid-column: 2/3;
+    }
+  }
+  ///////////////////////////////////////////
+  .get-started {
+    justify-content: space-around;
+  }
+  .get-started-title {
+    @include heading-medium;
+  }
+
+  .footer {
+    padding-left: 16.5rem;
+    padding-right: 16.5rem;
+  }
+  .footer {
+    grid-template-columns: 1fr 1fr auto;
+    grid-template-rows: repeat(2, 1fr);
+
+    svg {
+      grid-row: 1/2;
+      grid-column: 1/2;
+    }
+    &-nav {
+      grid-column: 1/2;
+      grid-row: 2/3;
+      align-self: start;
+    }
+    &-socials {
+      grid-column: 3/4;
+      grid-row: 1/2;
+      justify-self: end;
+    }
+    &-address {
+      grid-column: 2/3;
+      grid-row: 1/3;
+      text-align: left;
+    }
+    &-copy {
+      grid-column: 3/4;
+      grid-row: 2/3;
+    }
+  }
+}
