@@ -4,34 +4,78 @@ body {
   font-family: $font-main;
 }
 
-.heading {
-  font-weight: bold;
-  color: $color-secondary-5;
-  &-huge {
-    font-size: 10rem;
-    line-height: 10rem;
-  }
-  &-big {
-    font-size: 6.4rem;
-    line-height: 5.6rem;
-  }
-  &-medium {
-    font-size: 4.8rem;
-    line-height: 4.8rem;
-  }
-  &-small {
-    font-size: 1.8rem;
-    line-height: 2.8rem;
-  }
-  &-mobile {
-    font-size: 4rem;
-    line-height: 4rem;
-  }
-  &-mobile-secondary {
-    font-size: 3rem;
-    line-height: 3rem;
+@mixin heading-mobile {
+  font-size: 4rem;
+  line-height: 4rem;
+}
+@mixin heading-mobile-secondary {
+  font-size: 3.2rem;
+  line-height: 3.2rem;
+}
+@mixin heading-small {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+@mixin heading-medium {
+  font-size: 4.8rem;
+  line-height: 4.8rem;
+}
+@mixin heading-big {
+  font-size: 6.4rem;
+  line-height: 5.6rem;
+}
+@mixin heading-large {
+  font-size: 10rem;
+  line-height: 10rem;
+}
+.heading-main {
+  @include heading-mobile;
+  &-secondary {
+    @include heading-mobile-secondary;
   }
 }
+//////
+@mixin body-text {
+  font-weight: 600;
+  color: $color-secondary-5;
+}
+@mixin body-text-primary {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+@mixin body-text-secondary {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+// .heading {
+//   font-weight: bold;
+//   color: $color-secondary-5;
+//   &-huge {
+//     font-size: 10rem;
+//     line-height: 10rem;
+//   }
+//   &-big {
+//     font-size: 6.4rem;
+//     line-height: 5.6rem;
+//   }
+//   &-medium {
+//     font-size: 4.8rem;
+//     line-height: 4.8rem;
+//   }
+//   &-small {
+//     font-size: 1.8rem;
+//     line-height: 2.8rem;
+//   }
+//   &-mobile {
+//     font-size: 4rem;
+//     line-height: 4rem;
+//   }
+//   &-mobile-secondary {
+//     font-size: 3rem;
+//     line-height: 3rem;
+//   }
+// }
 
 .body-text {
   font-weight: 600;
