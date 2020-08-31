@@ -100,7 +100,7 @@ export default function ContactForm() {
           </section>
           <button
             type="submit"
-            className="contact-form-submit"
+            className="contact-form-submit btn btn-secondary"
             disabled={submitting}
           >
             submit
