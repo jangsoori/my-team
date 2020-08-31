@@ -1,4 +1,5 @@
 @import "../utils/variables/colors";
+@import "../utils/typography.scss";
 .get-started {
   background-color: $color-primary-2;
   padding: 8.3rem 2.4rem;
@@ -6,7 +7,14 @@
   grid-template-rows: repeat(2, auto);
   gap: 2.4rem;
   justify-items: center;
+  position: relative;
+  &-svg-1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
   &-title {
     color: $color-secondary-4;
+    @include heading-mobile-secondary;
   }
 }
