@@ -13,9 +13,15 @@
     grid-template-columns: max-content max-content;
     justify-content: center;
     gap: 2.4rem;
+
     &-link {
       color: white;
       text-decoration: none;
+      transition: all 0.2s;
+      cursor: pointer;
+      &:hover {
+        color: $color-primary-2;
+      }
     }
   }
   &-socials {
@@ -23,6 +29,15 @@
     gap: 1.6rem;
     justify-content: center;
     padding: 0;
+    svg path {
+      transition: all 0.2s;
+    }
+    svg:hover {
+      cursor: pointer;
+      path {
+        fill: $color-primary-2;
+      }
+    }
   }
   &-address,
   &-copy {
