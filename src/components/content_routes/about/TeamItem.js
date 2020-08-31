@@ -11,7 +11,7 @@ export default function TeamItem({ item }) {
         onClick={() => {
           setOverviewActive(!overviewActive);
         }}
-        className="team-item-extend-icon"
+        className="team-item-extend-icon close"
         width="56"
         height="56"
         viewBox="0 0 56 56"
