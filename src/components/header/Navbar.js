@@ -16,7 +16,12 @@ export default function Navbar() {
         }`}
         onClick={() => setMobileMenuActive(!mobileMenuActive)}
       >
-        <nav className={`mobile-menu`} onClick={(e) => e.stopPropagation()}>
+        <nav
+          className={`mobile-menu ${
+            mobileMenuActive ? "mobile-menu-animated" : ""
+          }`}
+          onClick={(e) => e.stopPropagation()}
+        >
           <svg
             class="navbar-close"
             onClick={() => setMobileMenuActive(!mobileMenuActive)}
