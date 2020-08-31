@@ -40,6 +40,9 @@ body {
   line-height: 1;
 }
 
+a {
+  text-decoration: none;
+}
 /* Remove list styles on ul, ol elements with a class attribute */
 ul[class],
 ol[class] {
