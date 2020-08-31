@@ -6,7 +6,7 @@ export default function About() {
   return (
     <React.Fragment>
       <section className="content about-main bg-main">
-        <h2 className="content-heading heading-mobile">About</h2>
+        <h2 className="content-heading heading-main">About</h2>
         <p className="content-text body-text-secondary">
           We help companies build dynamic teams made up of top global talent.
           Using our network of passionate professionals we drive innovation and
