@@ -1,6 +1,5 @@
 .content-wrapper {
-  padding-top: 8rem;
-  & > * > * {
+  & > * {
     padding-left: 2.4rem;
     padding-right: 2.4rem;
   }
@@ -9,9 +8,6 @@
     padding-bottom: 1.8rem;
   }
   //Content text
-  & > * > .body-text-secondary {
-    padding-bottom: 19.4rem;
-  }
 }
 
 .content-heading {
