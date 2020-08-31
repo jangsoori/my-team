@@ -1,0 +1,22 @@
+.desktop-menu-items {
+  grid-template-columns: max-content max-content auto;
+  gap: 2.4rem;
+  //   margin-right: auto;
+  width: 100%;
+  align-items: center;
+  //reset padding
+  padding: 0;
+}
+
+.desktop-menu-item:last-of-type {
+  padding: 1rem 3.4rem;
+  border: 2px solid white;
+  border-radius: 2.4rem;
+  justify-self: end;
+}
+
+.desktop-menu-item a {
+  color: white;
+  text-decoration: none;
+  justify-self: center;
+}
