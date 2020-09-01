@@ -150,7 +150,14 @@
   .about-clients-title {
     @include heading-medium;
   }
+  .team-list {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 4rem;
+    justify-content: center;
+    justify-items: center;
+  }
   .team-item {
+    width: 350px;
     padding-top: 3.2rem;
     padding-bottom: 5.6rem;
   }
