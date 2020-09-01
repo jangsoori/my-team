@@ -28,7 +28,7 @@
   }
 
   //HOME
-  // all sections
+  // Body text in section 1
   .body-text-home {
     width: 60%;
     margin: 0 auto;
@@ -133,10 +133,10 @@
     @include heading-big;
   }
   //SVGS
+  //reset all svg padding
   svg {
     padding: 0 !important;
   }
-  //red line on home page section 2
 
   .home-svg-1 {
     left: 50%;

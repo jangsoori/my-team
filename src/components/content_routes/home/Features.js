@@ -26,8 +26,8 @@ const features = [
 ];
 
 const renderFeatures = (features) => {
-  return features.map((feature) => {
-    return <FeaturesItem feature={feature} />;
+  return features.map((feature, index) => {
+    return <FeaturesItem key={index} feature={feature} />;
   });
 };
 export default function Features() {

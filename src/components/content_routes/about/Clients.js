@@ -10,8 +10,8 @@ const clients = [
 ];
 export default function Clients() {
   const renderClients = (clients) => {
-    return clients.map((client) => {
-      return <ClientsItem client={client} />;
+    return clients.map((client, index) => {
+      return <ClientsItem key={index} client={client} />;
     });
   };
   return (

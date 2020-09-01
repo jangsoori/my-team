@@ -1,9 +1,12 @@
 @import "./variables/typography";
 @import "./variables/colors";
+
+//Set global font
 body {
   font-family: $font-main;
 }
 
+//Mixins for headings on mobile/tablet/desktope
 @mixin heading-mobile {
   font-size: 4rem;
   line-height: 4rem;
@@ -34,7 +37,7 @@ body {
     @include heading-mobile-secondary;
   }
 }
-//////
+//Mixins for body text
 @mixin body-text {
   font-weight: 600;
   color: $color-secondary-5;
@@ -47,35 +50,6 @@ body {
   font-size: 1.5rem;
   line-height: 2.5rem;
 }
-
-// .heading {
-//   font-weight: bold;
-//   color: $color-secondary-5;
-//   &-huge {
-//     font-size: 10rem;
-//     line-height: 10rem;
-//   }
-//   &-big {
-//     font-size: 6.4rem;
-//     line-height: 5.6rem;
-//   }
-//   &-medium {
-//     font-size: 4.8rem;
-//     line-height: 4.8rem;
-//   }
-//   &-small {
-//     font-size: 1.8rem;
-//     line-height: 2.8rem;
-//   }
-//   &-mobile {
-//     font-size: 4rem;
-//     line-height: 4rem;
-//   }
-//   &-mobile-secondary {
-//     font-size: 3rem;
-//     line-height: 3rem;
-//   }
-// }
 
 .body-text {
   font-weight: 600;

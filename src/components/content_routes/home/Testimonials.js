@@ -27,8 +27,8 @@ const testimonials = [
 ];
 
 const renderTestimonials = (testimonials) => {
-  return testimonials.map((testimonial) => {
-    return <TestimonialsItem testimonial={testimonial} />;
+  return testimonials.map((testimonial, index) => {
+    return <TestimonialsItem key={index} testimonial={testimonial} />;
   });
 };
 export default function Testimonials() {

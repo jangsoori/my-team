@@ -6,7 +6,7 @@
   bottom: 0;
   left: 0;
 }
-.home-main {
+.home-section-1 {
   position: relative;
   padding-bottom: 19.7rem;
   > p {
@@ -24,7 +24,7 @@
   padding-top: 6rem;
   position: relative;
 
-  > h2 {
+  .home-section-2-title {
     width: 75%;
     text-align: left;
     padding-bottom: 5.6rem;
@@ -32,7 +32,7 @@
     position: relative;
   }
 
-  & .red-line {
+  .red-line {
     position: absolute;
     top: 0;
     left: 0;
@@ -65,10 +65,10 @@
     bottom: 0;
     padding: 0;
   }
-  h2 > span {
+  .home-section-3-title > span {
     color: $color-secondary-1;
   }
-  h2 {
+  .home-section-3-title {
     padding-bottom: 4.8rem;
   }
 }

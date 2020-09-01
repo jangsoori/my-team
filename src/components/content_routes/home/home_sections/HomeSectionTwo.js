@@ -1,14 +1,14 @@
 import React from "react";
-import "./GetStarted.scss";
-import { NavLink } from "react-router-dom";
-export default function GetStarted() {
+import Features from "../Features";
+
+export default function HomeSectionTwo() {
   return (
-    <section className="get-started grid">
+    <section className="home-section-2">
       <svg
-        className="get-started-svg-1"
-        width="200"
-        height="122"
-        viewBox="0 0 200 122"
+        className="home-svg-2"
+        width="100"
+        height="244"
+        viewBox="0 0 100 244"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -24,13 +24,13 @@ export default function GetStarted() {
           fillRule="evenodd"
           clipRule="evenodd"
           d="M100 244C155.228 244 200 199.228 200 144C200 88.7715 155.228 44 100 44C44.7715 44 0 88.7715 0 144C0 199.228 44.7715 244 100 244ZM100 177C118.225 177 133 162.225 133 144C133 125.775 118.225 111 100 111C81.7746 111 67 125.775 67 144C67 162.225 81.7746 177 100 177Z"
-          fill="#004047"
+          fill="#014E56"
         />
         <path
           fillRule="evenodd"
           clipRule="evenodd"
-          d="M100 100H0V104H100V100ZM100 108H0V112H100V108ZM0 116H100V120H0V116ZM100 124H0V128H100V124ZM0 132H100V136H0V132ZM100 140H0V144H100V140Z"
-          fill="#F67E7E"
+          d="M100 144H0V148H100V144ZM100 152H0V156H100V152ZM0 160H100V164H0V160ZM100 168H0V172H100V168ZM0 176H100V180H0V176ZM100 184H0V188H100V184Z"
+          fill="#79C8C7"
         />
         <path
           fillRule="evenodd"
@@ -40,10 +40,11 @@ export default function GetStarted() {
         />
       </svg>
 
-      <h2 className="heading get-started-title">Ready to get started?</h2>
-      <NavLink to="/contact" className="btn btn-primary-dark">
-        contact us
-      </NavLink>
+      <h2 className="content-heading heading-main-secondary home-section-2-title">
+        <span className="red-line"></span>
+        Build & manage distributed teams like no one else.
+      </h2>
+      <Features />
     </section>
   );
 }

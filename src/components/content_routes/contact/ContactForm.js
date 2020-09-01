@@ -5,12 +5,14 @@ export default function ContactForm() {
   const onSubmit = (values) => {
     console.log("form submitted");
   };
+  //Validation
   const required = (value) => (value ? undefined : "This field is required");
 
   return (
+    //React final form
     <Form
       onSubmit={onSubmit}
-      render={({ handleSubmit, form, submitting, pristine, values }) => (
+      render={({ handleSubmit, submitting }) => (
         <form onSubmit={handleSubmit} className="contact-form-wrapper grid">
           <section className="contact-form-inputs grid">
             <Field name="name" validate={required}>
