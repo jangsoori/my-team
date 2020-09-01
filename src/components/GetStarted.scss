@@ -13,6 +13,9 @@
     left: 0;
     bottom: 0;
   }
+  > a {
+    z-index: 10;
+  }
   &-title {
     color: $color-secondary-4;
     @include heading-mobile-secondary;
