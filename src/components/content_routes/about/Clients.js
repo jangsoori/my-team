@@ -2,11 +2,11 @@ import React from "react";
 import "./Clients.scss";
 import ClientsItem from "./ClientsItem";
 const clients = [
-  { name: "The Verge", logo: "./clients/Bitmap.png" },
-  { name: "The Jakarta Post", logo: "./clients/Bitmap-1.png" },
-  { name: "The Guardian", logo: "./clients/Bitmap-2.png" },
-  { name: "Techradar", logo: "./clients/Bitmap-3.png" },
-  { name: "Gadgets Now", logo: "./clients/Bitmap-4.png" },
+  { name: "The Verge", logo: "./clients/Object-2.png" },
+  { name: "The Jakarta Post", logo: "./clients/Object-3.png" },
+  { name: "The Guardian", logo: "./clients/Object.png" },
+  { name: "Techradar", logo: "./clients/Object-4.png" },
+  { name: "Gadgets Now", logo: "./clients/Object-5.png" },
 ];
 export default function Clients() {
   const renderClients = (clients) => {
