@@ -5,12 +5,9 @@
   padding: 0 0.9rem;
   bottom: 0;
   left: 0;
-  @media screen and (max-width: 320px) {
-    width: 90%;
-    bottom: -5%;
-  }
 }
 .home-section-1 {
+  overflow: hidden;
   position: relative;
   padding-bottom: 19.7rem;
   > p {
